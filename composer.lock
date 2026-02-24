@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "7c7e9f13ad7212554ef374d94ad3e121",
+=======
+    "content-hash": "1afe1c9df077bbdddf3cac85d28f2d0e",
+>>>>>>> feature/install-pagebuilder
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -19165,6 +19169,7 @@
             "time": "2024-12-18T14:59:28+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "markshust/magento2-module-simpledata",
             "version": "2.0.2",
             "source": {
@@ -19181,6 +19186,25 @@
             "require": {
                 "magento/framework": ">=101",
                 "php": ">=7.1"
+=======
+            "name": "markshust/magento2-module-pagebuildersourcecode",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/markshust/magento2-module-pagebuildersourcecode.git",
+                "reference": "fc32fd948ef4a222105c8ff3a17f40419cfe4835"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/markshust/magento2-module-pagebuildersourcecode/zipball/fc32fd948ef4a222105c8ff3a17f40419cfe4835",
+                "reference": "fc32fd948ef4a222105c8ff3a17f40419cfe4835",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "^100|^101|^102|^103",
+                "magento/module-page-builder": "^1||^2",
+                "php": "^7||^8"
+>>>>>>> feature/install-pagebuilder
             },
             "type": "magento2-module",
             "autoload": {
@@ -19188,17 +19212,28 @@
                     "registration.php"
                 ],
                 "psr-4": {
+<<<<<<< HEAD
                     "MarkShust\\SimpleData\\": ""
+=======
+                    "MarkShust\\PageBuilderSourceCode\\": ""
+>>>>>>> feature/install-pagebuilder
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
+<<<<<<< HEAD
             "description": "The SimpleData module simplifies calling Magento data structures.",
             "support": {
                 "issues": "https://github.com/markshust/magento2-module-simpledata/issues",
                 "source": "https://github.com/markshust/magento2-module-simpledata/tree/2.0.2"
+=======
+            "description": "The Page Builder Source Code module adds a Source Code button to the toolbar of the Page Builder WYSIWYG editor.",
+            "support": {
+                "issues": "https://github.com/markshust/magento2-module-pagebuildersourcecode/issues",
+                "source": "https://github.com/markshust/magento2-module-pagebuildersourcecode/tree/2.0.1"
+>>>>>>> feature/install-pagebuilder
             },
             "funding": [
                 {
@@ -19206,7 +19241,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2022-06-29T11:38:04+00:00"
+=======
+            "time": "2025-03-17T12:32:34+00:00"
+>>>>>>> feature/install-pagebuilder
         },
         {
             "name": "monolog/monolog",
